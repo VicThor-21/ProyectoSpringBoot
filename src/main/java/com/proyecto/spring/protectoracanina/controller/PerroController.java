@@ -20,7 +20,7 @@ public class PerroController {
 	@Autowired
 	private PerroService perroService;
 	
-	@GetMapping(value="/add/{nombre}")
+	@GetMapping(value="/add/{nombre}") // ruta en el navegador para insertar un nuevo perro
 	public Perro insertarPerro(@PathVariable String nombre) {
 		log.info("Inicio: insertarPerros");
 		
@@ -28,14 +28,14 @@ public class PerroController {
 		return perro;
 	}
 	
-	@GetMapping(value= {"","/"})
+	@GetMapping(value= {"","/"})  // ruta en el navegador para volver a ver el listado de perros
 	public List<Perro> listadoPerros(){
 		log.info("Inicio: listadoPerros");
 		List<Perro> perros=perroService.listadoPerros();
 		return perros;
 	}
 	
-	@GetMapping(value="/{id}")
+	@GetMapping(value="/{id}") // busqueda en el navegador por id de perro
 	public Perro obtenerPerro(@PathVariable Integer id) {
 		log.info("Inicio: obtenerPerro");
 		
