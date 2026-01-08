@@ -1,6 +1,6 @@
 package com.proyecto.spring.protectoracanina.entity;
 
-import java.time.LocalDate;
+import java.util.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -40,6 +40,6 @@ public class Perro {
 	@Column(name="estado")
 	private int estado;
 	@Column(name="fecha_ingreso")
-	private LocalDate fechaIngreso;
+	private Date fechaIngreso;
 
 }

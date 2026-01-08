@@ -1,6 +1,6 @@
 package com.proyecto.spring.protectoracanina.service.impl;
 
-import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ public class PerroDAO implements PerroService {
 
 	@Override
 	public Perro insertarPerro(String nombre, int edad, String raza, boolean sexo, float peso, int estado,
-			LocalDate fechaIngreso) {
+			Date fechaIngreso) {
 		Perro p=new Perro();
 		p.setNombre(nombre);
 		p.setEdad(edad);
