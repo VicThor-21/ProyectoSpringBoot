@@ -1,0 +1,2 @@
+INSERT INTO ADOPTANTE (NOMBRE, APELLIDOS, DNI, EMAIL, TELEFONO) VALUES
+('Carlos', 'Gómez Marín', '11223344A', 'carlos.gomez@mail.com', '600000001');
