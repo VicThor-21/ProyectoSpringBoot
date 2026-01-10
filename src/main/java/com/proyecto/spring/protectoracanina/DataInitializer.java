@@ -1,4 +1,4 @@
-package com.proyecto.spring.protectoracanina;
+/*** package com.proyecto.spring.protectoracanina;
 
 import java.util.ArrayList;
 import java.sql.Date;
@@ -110,4 +110,4 @@ public class DataInitializer implements CommandLineRunner{
 		
 	}
 	
-}
+} ***/
