@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.proyecto.spring.protectoracanina.entity.Perro;
-import com.proyecto.spring.protectoracanina.repository.PerroRepo;
+import com.proyecto.spring.protectoracanina.repository.PerroRepository;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
 @Service
 public class PerroDAO implements PerroService {
 	
 	@Autowired
-	private PerroRepo perroRepo;
+	private PerroRepository perroRepository;
 
 	@Override
 	public Perro insertarPerro(String nombre, int edad, String raza, boolean sexo, float peso, int estado,
@@ -28,25 +28,25 @@ public class PerroDAO implements PerroService {
 		p.setEstado(estado);
 		p.setFechaIngreso(fechaIngreso);
 		
-		return perroRepo.save(p);
+		return perroRepository.save(p);
 	}
 
 	@Override
 	public List<Perro> listadoPerros() {
 		
-		return perroRepo.findAll();
+		return perroRepository.findAll();
 	}
 
 	@Override
 	public Perro obtenerPerro(int id) {
 		
-		return perroRepo.findById(id).orElse(null);
+		return perroRepository.findById(id).orElse(null);
 	}
 
 	@Override
 	public Perro obtenerPerro(String nombre) {
 		
-		return perroRepo.findByNombre(nombre).orElse(null);
+		return perroRepository.findByNombre(nombre).orElse(null);
 	}
 
 }

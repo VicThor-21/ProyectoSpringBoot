@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.proyecto.spring.protectoracanina.entity.Adopcion;
 
-public interface AdopcionRepo extends JpaRepository<Adopcion, Integer> {
+public interface AdopcionRepository extends JpaRepository<Adopcion, Integer> {
 	
 	
 

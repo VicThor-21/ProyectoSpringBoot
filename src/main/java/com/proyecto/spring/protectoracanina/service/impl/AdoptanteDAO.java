@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.proyecto.spring.protectoracanina.entity.Adoptante;
-import com.proyecto.spring.protectoracanina.repository.AdoptanteRepo;
+import com.proyecto.spring.protectoracanina.repository.AdoptanteRepository;
 import com.proyecto.spring.protectoracanina.service.AdoptanteService;
 
 @Service
 public class AdoptanteDAO implements AdoptanteService {
 	
 	@Autowired
-	private AdoptanteRepo adoptanteRepo;
+	private AdoptanteRepository adoptanteRepository;
 
 	@Override
 	public Adoptante insertarAdoptante(String nombre, String apellidos, String dni, String telefono, String email) {
@@ -25,25 +25,25 @@ public class AdoptanteDAO implements AdoptanteService {
 		a.setTelefono(telefono);
 		a.setEmail(email);
 		
-		return adoptanteRepo.save(a);
+		return adoptanteRepository.save(a);
 	}
 
 	@Override
 	public List<Adoptante> listadoAdoptantes() {
 		
-		return adoptanteRepo.findAll();
+		return adoptanteRepository.findAll();
 	}
 
 	@Override
 	public Adoptante obtenerAdoptante(int id) {
 		
-		return adoptanteRepo.findById(id).orElse(null);
+		return adoptanteRepository.findById(id).orElse(null);
 	}
 
 	@Override
 	public Adoptante obtenerAdoptante(String nombre) {
 		
-		return adoptanteRepo.findByNombre(nombre).orElse(null);
+		return adoptanteRepository.findByNombre(nombre).orElse(null);
 	}
 
 }

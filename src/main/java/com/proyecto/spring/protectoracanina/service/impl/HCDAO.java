@@ -8,14 +8,14 @@ import org.springframework.stereotype.Service;
 
 import com.proyecto.spring.protectoracanina.entity.HistorialClinico;
 import com.proyecto.spring.protectoracanina.entity.Perro;
-import com.proyecto.spring.protectoracanina.repository.HCRepo;
+import com.proyecto.spring.protectoracanina.repository.HCRepository;
 import com.proyecto.spring.protectoracanina.service.HCService;
 
 @Service
 public class HCDAO implements HCService {
 	
 	@Autowired
-	private HCRepo hcRepo;
+	private HCRepository hcRepo;
 
 	@Override
 	public HistorialClinico insertarHC(int causa, String descripcion, Date fecha, String veterinario, Perro perro) {
