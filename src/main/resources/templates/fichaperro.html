@@ -8,10 +8,10 @@
 <body>
     <h1>Ficha Perro</h1>
 
-    <div style="display: flex; gap: 40px; align-items: flex-start;">
+    <div style="display: flex; gap: 30px; align-items: flex-start;">
 
         <div style="flex: 1; min-width: 250px;">
-            <h3>Datos Generales</h3>
+            <h2>Datos Generales</h2>
             <ul style="list-style: none; padding: 0; line-height: 1;">
                 <li><strong>ID:</strong> <span th:text="${FichaPerro.id}"></span></li>
                 <li><strong>NOMBRE:</strong> <span th:text="${FichaPerro.nombre}"></span></li>
@@ -30,9 +30,9 @@
                 <thead style="background-color: #f2f2f2;">
                     <tr>
                         <th>ID</th>
-                        <th>CAUSA</th>
+                        <th>CAUSA/MOTIVO</th>
                         <th>DESCRIPCIÓN</th>
-                        <th>FECHA</th>
+                        <th>FECHA CONSULTA</th>
                         <th>VETERINARIO</th>            
                     </tr>
                 </thead>
@@ -42,11 +42,35 @@
                         <td th:text="${HCPerro.causa}"></td>
                         <td th:text="${HCPerro.descripcion}"></td>
                         <td th:text="${HCPerro.fecha}"></td>
-                        <td th:text="${HCPerro.veterinario}"></td> </tr>
+                        <td th:text="${HCPerro.veterinario}"></td>
+                        <td><button>Seleccionar</button></td> </tr>
                 </tbody>
-            </table>
+            </table><br><br><br>
+            
+            <h2>Consulta Clínica</h2>
+            <form action="">
+            	<label>Veterinario: </label><input type="text"><br><br>
+            	<label for="causa">Causa/Motivo: </label>
+				<select name="causa" id="causa">
+				    <option value="">-- Selecciona una opción --</option>
+				    <option value="revision">Revisión</option>
+				    <option value="vacuna">Vacuna</option>
+				    <option value="desparasitar">Desparasitar</option>
+				    <option value="operacion">Operación</option>
+				    <option value="enfermedad">Enfermedad</option>
+				</select><br><br>
+            	<label>Descripción: </label><br>
+            	<textarea rows="4" cols="60"></textarea><br><br>
+            	<label for="fecha">Fecha Consulta: </label><input type="datetime-local" id="fecha"><br><br>
+	            <button>➕ Añadir Consulta</button>
+	            <button>🔄 Actualizar Consulta</button>
+	            <button>❌ Eliminar Consulta</button>
+	            <input type="reset" value="⚪️ Limpiar Formulario">
+            </form><br><br>
+            
         </div>
-
     </div>
+    <a th:href="@{/perros}"><input type="button" value="⬅️ Atrás"></a>
+    
 </body>
 </html>

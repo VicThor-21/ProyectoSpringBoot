@@ -33,8 +33,9 @@
     			<td th:text="${Perro.peso}"></td>
     			<td th:text="${Perro.estado}"></td>
     			<td th:text="${Perro.fechaIngreso}"></td>
-    			<td><a href="http://localhost:8082/perros">ficha</a></td>
-    			<td><a href="http://localhost:8082/perros">adoptar</a></td>
+    			<td><a th:href="@{|/fichaperro/${Perro.id}|}">ficha</a></td>
+    			<td><a th:href="@{|/fichaperro/${Perro.id}|}">adoptar</a></td>
+    			
     		</tr>
     	</tbody>
     </table>
