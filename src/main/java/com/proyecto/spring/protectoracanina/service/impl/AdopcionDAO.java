@@ -9,14 +9,14 @@ import org.springframework.stereotype.Service;
 import com.proyecto.spring.protectoracanina.entity.Adopcion;
 import com.proyecto.spring.protectoracanina.entity.Adoptante;
 import com.proyecto.spring.protectoracanina.entity.Perro;
-import com.proyecto.spring.protectoracanina.repository.AdopcionRepo;
+import com.proyecto.spring.protectoracanina.repository.AdopcionRepository;
 import com.proyecto.spring.protectoracanina.service.AdopcionService;
 
 @Service
 public class AdopcionDAO implements AdopcionService {
 	
 	@Autowired
-	private AdopcionRepo adopcionRepo;
+	private AdopcionRepository adopcionRepository;
 
 	@Override
 	public Adopcion insertarAdopcion(Date fecha, int estado, boolean donacion, Perro perro, Adoptante adoptante) {
@@ -28,19 +28,19 @@ public class AdopcionDAO implements AdopcionService {
 		a.setPerro(perro);
 		a.setAdoptante(adoptante);
 		
-		return adopcionRepo.save(a);
+		return adopcionRepository.save(a);
 	}
 
 	@Override
 	public List<Adopcion> listadoAdopciones() {
 		
-		return adopcionRepo.findAll();
+		return adopcionRepository.findAll();
 	}
 
 	@Override
 	public Adopcion obtenerAdopcion(int id) {
 		
-		return adopcionRepo.findById(id).orElse(null);
+		return adopcionRepository.findById(id).orElse(null);
 	}
 
 }

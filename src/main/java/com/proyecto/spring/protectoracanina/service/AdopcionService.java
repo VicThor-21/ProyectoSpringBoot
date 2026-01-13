@@ -13,5 +13,4 @@ public interface AdopcionService {
 	public List<Adopcion> listadoAdopciones();
 	public Adopcion obtenerAdopcion(int id);
 	
-	
 }
