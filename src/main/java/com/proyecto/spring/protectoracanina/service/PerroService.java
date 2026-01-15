@@ -9,5 +9,5 @@ public interface PerroService {
 	public Perro insertarPerro(String nombre, int edad, String raza, boolean sexo, float peso, int estado, Date fechaIngreso);
 	public List<Perro> listadoPerros();
 	public Perro obtenerPerro(int id);
-	public Perro obtenerPerro(String nombre);
+	public List<Perro>  obtenerPerro(String nombre);
 }

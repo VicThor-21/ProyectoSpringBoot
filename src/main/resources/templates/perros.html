@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title th:text="${Titulo}">Pagina Spring Boot</title>
+    <title>PCan Perros</title>
 </head>
 <body>
+	<div>
     <h1>PERROS</h1>
-    <h2><a href="http://localhost:8082/perros">➕ Añadir Perro</a></h2>
-    <h2><button>🔎 Buscar</button>  <input></h2>
-    
+    </div>
+    <div>
+    	<form name="info_perros" action="/perros">
+	    	<h3><a href="/perros/crearperro">➕ Añadir Perro</a></h3>
+	    	<label for="nombre">Nombre: </label>
+	    	<input type="text" id="nombre" name="nombre">
+	    	<button>🔎 Buscar</button><br><br>
+    	</form>
+    </div>
     <table border="1">
     	<thead>
     		<tr>

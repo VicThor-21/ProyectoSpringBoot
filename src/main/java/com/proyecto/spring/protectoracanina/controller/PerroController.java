@@ -45,10 +45,10 @@ public class PerroController {
 	}
 	
 	@GetMapping(value="/nombre/{nombre}") // busqueda en el navegador por id de perro
-	public Perro obtenerPerro(@PathVariable String nombre) {
+	public List<Perro> obtenerPerro(@PathVariable String nombre) {
 		log.info("Inicio: obtenerPerro");
 		
-		Perro perro=perroService.obtenerPerro(nombre);
+		List<Perro> perro=perroService.obtenerPerro(nombre);
 		
 		return perro;
 	}

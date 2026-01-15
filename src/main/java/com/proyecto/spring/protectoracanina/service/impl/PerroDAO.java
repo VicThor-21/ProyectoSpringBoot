@@ -10,7 +10,10 @@ import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.repository.PerroRepository;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class PerroDAO implements PerroService {
 	
 	@Autowired
@@ -39,14 +42,18 @@ public class PerroDAO implements PerroService {
 
 	@Override
 	public Perro obtenerPerro(int id) {
-		
+		log.info("[obtenerPerroPorId]");
 		return perroRepository.findById(id).orElse(null);
 	}
 
 	@Override
-	public Perro obtenerPerro(String nombre) {
+	public List<Perro>  obtenerPerro(String nombre) {
+		log.info("[obtenerPerroPorNombre]");
+		log.info("[nombre]: {}",nombre);
 		
-		return perroRepository.findByNombre(nombre).orElse(null);
+		if (nombre == null || nombre.trim().isEmpty())
+			return perroRepository.findAll();
+		return perroRepository.findByNombre(nombre);
 	}
 
 }
