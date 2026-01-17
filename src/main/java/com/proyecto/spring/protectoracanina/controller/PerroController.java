@@ -37,7 +37,7 @@ public class PerroController {
 	
 	@GetMapping(value="/id/{id}") // busqueda en el navegador por id de perro
 	public Perro obtenerPerro(@PathVariable Integer id) {
-		log.info("Inicio: obtenerPerro");
+		log.info("Inicio: obtenerPerro por id");
 		
 		Perro perro=perroService.obtenerPerro(id);
 		
@@ -52,5 +52,5 @@ public class PerroController {
 		
 		return perro;
 	}
-	
+
 }
