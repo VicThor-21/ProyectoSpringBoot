@@ -1,21 +1,21 @@
-2026-01-15T18:48:41.287+01:00  INFO 41572 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 41572 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
-2026-01-15T18:48:41.289+01:00  INFO 41572 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-01-15T18:48:41.304+01:00  INFO 41572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-15T18:48:41.304+01:00  INFO 41572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-15T18:48:41.489+01:00  INFO 41572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-15T18:48:41.508+01:00  INFO 41572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 4 JPA repository interfaces.
-2026-01-15T18:48:41.630+01:00  INFO 41572 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-01-15T18:48:41.635+01:00  INFO 41572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-15T18:48:41.635+01:00  INFO 41572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-15T18:48:41.649+01:00  INFO 41572 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 345 ms
-2026-01-15T18:48:41.695+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-15T18:48:41.711+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-15T18:48:41.839+01:00  INFO 41572 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-15T18:48:41.849+01:00  INFO 41572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-15T18:48:41.910+01:00  INFO 41572 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
-2026-01-15T18:48:41.911+01:00  INFO 41572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-15T18:48:41.919+01:00  WARN 41572 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-15T18:48:41.926+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-01-17T20:06:37.760+01:00  INFO 47914 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 47914 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
+2026-01-17T20:06:37.763+01:00  INFO 47914 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T20:06:37.776+01:00  INFO 47914 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-17T20:06:37.776+01:00  INFO 47914 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-17T20:06:38.014+01:00  INFO 47914 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-17T20:06:38.032+01:00  INFO 47914 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
+2026-01-17T20:06:38.155+01:00  INFO 47914 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-01-17T20:06:38.160+01:00  INFO 47914 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17T20:06:38.161+01:00  INFO 47914 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17T20:06:38.170+01:00  INFO 47914 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 394 ms
+2026-01-17T20:06:38.216+01:00  INFO 47914 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-17T20:06:38.236+01:00  INFO 47914 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-17T20:06:38.371+01:00  INFO 47914 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-17T20:06:38.382+01:00  INFO 47914 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-17T20:06:38.438+01:00  INFO 47914 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2026-01-17T20:06:38.439+01:00  INFO 47914 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-17T20:06:38.448+01:00  WARN 47914 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-17T20:06:38.455+01:00  INFO 47914 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:h2:mem:test]
 	Database driver: H2 JDBC Driver
 	Database dialect: H2Dialect
@@ -27,341 +27,39 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-01-15T18:48:42.179+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-15T18:48:42.209+01:00  INFO 41572 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T18:48:42.235+01:00  INFO 41572 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-15T18:48:42.297+01:00  WARN 41572 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-15T18:48:42.386+01:00  INFO 41572 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
-2026-01-15T18:48:42.405+01:00  INFO 41572 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-01-15T18:48:42.408+01:00  INFO 41572 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 1.241 seconds (process running for 1.541)
-2026-01-15T18:52:01.525+01:00  INFO 41572 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-01-15T18:52:01.534+01:00  INFO 41572 --- [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-15T18:52:01.543+01:00  INFO 41572 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-15T18:52:01.548+01:00  INFO 41572 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T18:52:01.553+01:00  WARN 41572 --- [Thread-1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+2026-01-17T20:06:38.722+01:00  INFO 47914 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-17T20:06:38.747+01:00  INFO 47914 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-17T20:06:38.773+01:00  INFO 47914 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-17T20:06:38.840+01:00  WARN 47914 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17T20:06:38.933+01:00  INFO 47914 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2026-01-17T20:06:38.951+01:00  INFO 47914 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-01-17T20:06:38.954+01:00  INFO 47914 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 1.312 seconds (process running for 1.64)
+2026-01-17T20:06:46.937+01:00  INFO 47914 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17T20:06:46.938+01:00  INFO 47914 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17T20:06:46.938+01:00  INFO 47914 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-17T20:06:46.955+01:00  INFO 47914 --- [http-nio-8082-exec-1] c.p.s.p.controller.PerrosController      : [listadoPerros]
+2026-01-17T20:06:46.955+01:00  INFO 47914 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
+2026-01-17T20:06:46.955+01:00  INFO 47914 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
+2026-01-17T20:07:08.383+01:00  INFO 47914 --- [http-nio-8082-exec-2] c.p.s.p.controller.PerrosController      : [listadoPerros]
+2026-01-17T20:07:08.384+01:00  INFO 47914 --- [http-nio-8082-exec-2] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
+2026-01-17T20:07:08.384+01:00  INFO 47914 --- [http-nio-8082-exec-2] c.p.s.p.service.impl.PerroDAO            : [nombre]: 
+2026-01-17T20:07:14.124+01:00  INFO 47914 --- [http-nio-8082-exec-3] c.p.s.p.controller.PerrosController      : [listadoPerros]
+2026-01-17T20:07:14.125+01:00  INFO 47914 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
+2026-01-17T20:07:14.125+01:00  INFO 47914 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [nombre]: Rex
+2026-01-17T20:07:20.700+01:00  INFO 47914 --- [http-nio-8082-exec-4] c.p.s.p.controller.FichaPerroController  : Inicio: fichaPerro
+2026-01-17T20:07:20.700+01:00  INFO 47914 --- [http-nio-8082-exec-4] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorId]
+2026-01-17T20:07:30.692+01:00  INFO 47914 --- [http-nio-8082-exec-5] c.p.s.p.controller.PerrosController      : [listadoPerros]
+2026-01-17T20:07:30.693+01:00  INFO 47914 --- [http-nio-8082-exec-5] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
+2026-01-17T20:07:30.693+01:00  INFO 47914 --- [http-nio-8082-exec-5] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
+2026-01-17T20:07:32.579+01:00  INFO 47914 --- [http-nio-8082-exec-6] c.p.s.p.controller.FormPerroController   : [formularioPerro]
+2026-01-17T20:07:45.478+01:00  INFO 47914 --- [http-nio-8082-exec-7] c.p.s.p.controller.PerrosController      : [listadoPerros]
+2026-01-17T20:07:45.479+01:00  INFO 47914 --- [http-nio-8082-exec-7] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
+2026-01-17T20:07:45.479+01:00  INFO 47914 --- [http-nio-8082-exec-7] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
+2026-01-17T20:10:44.521+01:00  INFO 47914 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-17T20:10:44.526+01:00  INFO 47914 --- [RMI TCP Connection(6)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-17T20:10:44.531+01:00  INFO 47914 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-17T20:10:44.533+01:00  INFO 47914 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-17T20:10:44.536+01:00  WARN 47914 --- [RMI TCP Connection(6)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
 Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
-2026-01-15T18:52:01.553+01:00  INFO 41572 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-15T18:52:01.554+01:00  INFO 41572 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-15T18:52:01.588+01:00  INFO 41572 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 41572 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
-2026-01-15T18:52:01.588+01:00  INFO 41572 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-01-15T18:52:01.636+01:00  INFO 41572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-15T18:52:01.640+01:00  INFO 41572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 4 JPA repository interfaces.
-2026-01-15T18:52:01.666+01:00  INFO 41572 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-01-15T18:52:01.666+01:00  INFO 41572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-15T18:52:01.666+01:00  INFO 41572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-15T18:52:01.669+01:00  INFO 41572 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 80 ms
-2026-01-15T18:52:01.681+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-15T18:52:01.688+01:00  INFO 41572 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-15T18:52:01.688+01:00  INFO 41572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2026-01-15T18:52:01.689+01:00  INFO 41572 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:test user=SA
-2026-01-15T18:52:01.689+01:00  INFO 41572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2026-01-15T18:52:01.689+01:00  WARN 41572 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-15T18:52:01.689+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:test]
-	Database driver: H2 JDBC Driver
-	Database dialect: H2Dialect
-	Database version: 2.4.240
-	Default catalog/schema: TEST/PUBLIC
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: 100
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-15T18:52:01.713+01:00  INFO 41572 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-15T18:52:01.722+01:00  INFO 41572 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T18:52:01.753+01:00  WARN 41572 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-15T18:52:01.779+01:00  INFO 41572 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
-2026-01-15T18:52:01.785+01:00  INFO 41572 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-01-15T18:52:01.787+01:00  INFO 41572 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 0.208 seconds (process running for 200.919)
-2026-01-15T18:52:01.787+01:00  INFO 41572 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-01-15T18:52:11.910+01:00  INFO 41572 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-01-15T18:52:11.911+01:00  INFO 41572 --- [RMI TCP Connection(7)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-15T18:52:11.913+01:00  INFO 41572 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-15T18:52:11.915+01:00  INFO 41572 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T18:52:11.917+01:00  WARN 41572 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
-Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
-2026-01-15T18:52:11.917+01:00  INFO 41572 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2026-01-15T18:52:11.918+01:00  INFO 41572 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2026-01-15T18:52:14.939+01:00  INFO 41591 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 41591 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
-2026-01-15T18:52:14.940+01:00  INFO 41591 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-01-15T18:52:14.952+01:00  INFO 41591 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-15T18:52:14.953+01:00  INFO 41591 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-15T18:52:15.117+01:00  INFO 41591 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-15T18:52:15.133+01:00  INFO 41591 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 4 JPA repository interfaces.
-2026-01-15T18:52:15.253+01:00  INFO 41591 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-01-15T18:52:15.257+01:00  INFO 41591 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-15T18:52:15.258+01:00  INFO 41591 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-15T18:52:15.267+01:00  INFO 41591 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 314 ms
-2026-01-15T18:52:15.311+01:00  INFO 41591 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-15T18:52:15.325+01:00  INFO 41591 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-15T18:52:15.441+01:00  INFO 41591 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-15T18:52:15.450+01:00  INFO 41591 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-15T18:52:15.502+01:00  INFO 41591 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
-2026-01-15T18:52:15.502+01:00  INFO 41591 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-15T18:52:15.509+01:00  WARN 41591 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-15T18:52:15.515+01:00  INFO 41591 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:test]
-	Database driver: H2 JDBC Driver
-	Database dialect: H2Dialect
-	Database version: 2.4.240
-	Default catalog/schema: TEST/PUBLIC
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: 100
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-15T18:52:15.757+01:00  INFO 41591 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-15T18:52:15.784+01:00  INFO 41591 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T18:52:15.809+01:00  INFO 41591 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-15T18:52:15.871+01:00  WARN 41591 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-15T18:52:15.963+01:00  INFO 41591 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
-2026-01-15T18:52:15.981+01:00  INFO 41591 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-01-15T18:52:15.983+01:00  INFO 41591 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 1.149 seconds (process running for 1.407)
-2026-01-15T18:52:22.660+01:00  INFO 41591 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-15T18:52:22.660+01:00  INFO 41591 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-15T18:52:22.662+01:00  INFO 41591 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-01-15T18:52:22.680+01:00  INFO 41591 --- [http-nio-8082-exec-1] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:52:22.680+01:00  INFO 41591 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:52:22.680+01:00  INFO 41591 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T18:52:48.705+01:00  INFO 41591 --- [http-nio-8082-exec-3] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:52:48.706+01:00  INFO 41591 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:52:48.706+01:00  INFO 41591 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T18:55:09.391+01:00  INFO 41591 --- [http-nio-8082-exec-6] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:55:09.392+01:00  INFO 41591 --- [http-nio-8082-exec-6] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:55:09.392+01:00  INFO 41591 --- [http-nio-8082-exec-6] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T18:55:10.098+01:00  INFO 41591 --- [http-nio-8082-exec-7] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:55:10.098+01:00  INFO 41591 --- [http-nio-8082-exec-7] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:55:10.098+01:00  INFO 41591 --- [http-nio-8082-exec-7] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T18:55:28.312+01:00  INFO 41591 --- [http-nio-8082-exec-8] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:55:28.312+01:00  INFO 41591 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:55:28.312+01:00  INFO 41591 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T18:55:34.633+01:00  INFO 41591 --- [http-nio-8082-exec-9] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:55:34.633+01:00  INFO 41591 --- [http-nio-8082-exec-9] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:55:34.633+01:00  INFO 41591 --- [http-nio-8082-exec-9] c.p.s.p.service.impl.PerroDAO            : [nombre]: Rex
-2026-01-15T18:55:41.158+01:00  INFO 41591 --- [http-nio-8082-exec-10] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:55:41.158+01:00  INFO 41591 --- [http-nio-8082-exec-10] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:55:41.158+01:00  INFO 41591 --- [http-nio-8082-exec-10] c.p.s.p.service.impl.PerroDAO            : [nombre]: 
-2026-01-15T18:56:01.920+01:00  INFO 41591 --- [http-nio-8082-exec-2] c.p.s.p.controller.FichaPerroController  : Inicio: fichaPerro
-2026-01-15T18:56:01.921+01:00  INFO 41591 --- [http-nio-8082-exec-2] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorId]
-2026-01-15T18:56:03.472+01:00  INFO 41591 --- [http-nio-8082-exec-3] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:56:03.472+01:00  INFO 41591 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:56:03.472+01:00  INFO 41591 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T18:56:27.226+01:00  INFO 41591 --- [http-nio-8082-exec-5] c.p.s.p.controller.FichaPerroController  : Inicio: fichaPerro
-2026-01-15T18:56:27.227+01:00  INFO 41591 --- [http-nio-8082-exec-5] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorId]
-2026-01-15T18:58:12.244+01:00  INFO 41591 --- [http-nio-8082-exec-8] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T18:58:12.244+01:00  INFO 41591 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T18:58:12.244+01:00  INFO 41591 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T19:00:31.503+01:00  INFO 41591 --- [http-nio-8082-exec-1] c.p.s.p.controller.FichaPerroController  : Inicio: fichaPerro
-2026-01-15T19:00:31.504+01:00  INFO 41591 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorId]
-2026-01-15T19:49:14.664+01:00  INFO 41591 --- [http-nio-8082-exec-4] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T19:49:14.665+01:00  INFO 41591 --- [http-nio-8082-exec-4] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T19:49:14.666+01:00  INFO 41591 --- [http-nio-8082-exec-4] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T19:49:26.534+01:00  INFO 41591 --- [RMI TCP Connection(59)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-01-15T19:49:26.545+01:00  INFO 41591 --- [RMI TCP Connection(59)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-15T19:49:26.550+01:00  INFO 41591 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-15T19:49:26.553+01:00  INFO 41591 --- [RMI TCP Connection(59)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T19:49:26.558+01:00  WARN 41591 --- [RMI TCP Connection(59)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
-Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
-2026-01-15T19:49:26.559+01:00  INFO 41591 --- [RMI TCP Connection(59)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-15T19:49:26.560+01:00  INFO 41591 --- [RMI TCP Connection(59)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-15T19:49:37.383+01:00  INFO 42155 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 42155 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
-2026-01-15T19:49:37.384+01:00  INFO 42155 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-01-15T19:49:37.396+01:00  INFO 42155 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-15T19:49:37.397+01:00  INFO 42155 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-15T19:49:37.568+01:00  INFO 42155 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-15T19:49:37.584+01:00  INFO 42155 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 4 JPA repository interfaces.
-2026-01-15T19:49:37.715+01:00  INFO 42155 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-01-15T19:49:37.720+01:00  INFO 42155 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-15T19:49:37.720+01:00  INFO 42155 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-15T19:49:37.730+01:00  INFO 42155 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 333 ms
-2026-01-15T19:49:37.777+01:00  INFO 42155 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-15T19:49:37.792+01:00  INFO 42155 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-15T19:49:37.920+01:00  INFO 42155 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-15T19:49:37.929+01:00  INFO 42155 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-15T19:49:37.984+01:00  INFO 42155 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
-2026-01-15T19:49:37.985+01:00  INFO 42155 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-15T19:49:37.992+01:00  WARN 42155 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-15T19:49:37.999+01:00  INFO 42155 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:test]
-	Database driver: H2 JDBC Driver
-	Database dialect: H2Dialect
-	Database version: 2.4.240
-	Default catalog/schema: TEST/PUBLIC
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: 100
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-15T19:49:38.263+01:00  INFO 42155 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-15T19:49:38.290+01:00  INFO 42155 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T19:49:38.317+01:00  INFO 42155 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-15T19:49:38.381+01:00  WARN 42155 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-15T19:49:38.472+01:00  INFO 42155 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
-2026-01-15T19:49:38.490+01:00  INFO 42155 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-01-15T19:49:38.492+01:00  INFO 42155 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 1.215 seconds (process running for 1.457)
-2026-01-15T19:49:45.732+01:00  INFO 42155 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-15T19:49:45.732+01:00  INFO 42155 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-15T19:49:45.733+01:00  INFO 42155 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-01-15T19:49:45.750+01:00  INFO 42155 --- [http-nio-8082-exec-1] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T19:49:45.750+01:00  INFO 42155 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T19:49:45.750+01:00  INFO 42155 --- [http-nio-8082-exec-1] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T19:51:57.091+01:00  INFO 42155 --- [http-nio-8082-exec-8] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T19:51:57.092+01:00  INFO 42155 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T19:51:57.092+01:00  INFO 42155 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [nombre]: 
-2026-01-15T19:53:54.632+01:00  INFO 42155 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-01-15T19:53:54.634+01:00  INFO 42155 --- [RMI TCP Connection(9)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-15T19:53:54.637+01:00  INFO 42155 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-15T19:53:54.639+01:00  INFO 42155 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T19:53:54.641+01:00  WARN 42155 --- [RMI TCP Connection(9)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
-Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
-2026-01-15T19:53:54.642+01:00  INFO 42155 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-15T19:53:54.642+01:00  INFO 42155 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-15T19:53:56.462+01:00  INFO 42202 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 42202 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
-2026-01-15T19:53:56.462+01:00  INFO 42202 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-01-15T19:53:56.475+01:00  INFO 42202 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-15T19:53:56.475+01:00  INFO 42202 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-15T19:53:56.645+01:00  INFO 42202 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-15T19:53:56.663+01:00  INFO 42202 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 4 JPA repository interfaces.
-2026-01-15T19:53:56.789+01:00  INFO 42202 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-01-15T19:53:56.794+01:00  INFO 42202 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-15T19:53:56.794+01:00  INFO 42202 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-15T19:53:56.804+01:00  INFO 42202 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 329 ms
-2026-01-15T19:53:56.850+01:00  INFO 42202 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-15T19:53:56.865+01:00  INFO 42202 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-15T19:53:56.992+01:00  INFO 42202 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-15T19:53:57.002+01:00  INFO 42202 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-15T19:53:57.057+01:00  INFO 42202 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
-2026-01-15T19:53:57.058+01:00  INFO 42202 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-15T19:53:57.065+01:00  WARN 42202 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-15T19:53:57.072+01:00  INFO 42202 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:test]
-	Database driver: H2 JDBC Driver
-	Database dialect: H2Dialect
-	Database version: 2.4.240
-	Default catalog/schema: TEST/PUBLIC
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: 100
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-15T19:53:57.327+01:00  INFO 42202 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-15T19:53:57.355+01:00  INFO 42202 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T19:53:57.381+01:00  INFO 42202 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-15T19:53:57.445+01:00  WARN 42202 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-15T19:53:57.536+01:00  INFO 42202 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
-2026-01-15T19:53:57.554+01:00  INFO 42202 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-01-15T19:53:57.557+01:00  INFO 42202 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 1.201 seconds (process running for 1.509)
-2026-01-15T19:54:01.180+01:00  INFO 42202 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-15T19:54:01.181+01:00  INFO 42202 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-15T19:54:01.182+01:00  INFO 42202 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-01-15T19:54:25.907+01:00  INFO 42202 --- [http-nio-8082-exec-3] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T19:54:25.907+01:00  INFO 42202 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T19:54:25.907+01:00  INFO 42202 --- [http-nio-8082-exec-3] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T19:54:40.896+01:00  INFO 42202 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-01-15T19:54:40.898+01:00  INFO 42202 --- [RMI TCP Connection(4)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-15T19:54:40.902+01:00  INFO 42202 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-15T19:54:40.904+01:00  INFO 42202 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T19:54:40.907+01:00  WARN 42202 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
-Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
-2026-01-15T19:54:40.907+01:00  INFO 42202 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-15T19:54:40.908+01:00  INFO 42202 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-15T23:04:52.519+01:00  INFO 44811 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Starting ProtectoracaninaApplication using Java 21.0.9 with PID 44811 (/Users/VicThor/git/ProyectoSpringBoot/target/classes started by VicThor in /Users/VicThor/git/ProyectoSpringBoot)
-2026-01-15T23:04:52.520+01:00  INFO 44811 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-01-15T23:04:52.534+01:00  INFO 44811 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-15T23:04:52.534+01:00  INFO 44811 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-15T23:04:52.727+01:00  INFO 44811 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-15T23:04:52.744+01:00  INFO 44811 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
-2026-01-15T23:04:52.872+01:00  INFO 44811 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
-2026-01-15T23:04:52.876+01:00  INFO 44811 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-15T23:04:52.877+01:00  INFO 44811 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-15T23:04:52.890+01:00  INFO 44811 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 356 ms
-2026-01-15T23:04:52.938+01:00  INFO 44811 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-15T23:04:52.960+01:00  INFO 44811 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-15T23:04:53.105+01:00  INFO 44811 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-15T23:04:53.118+01:00  INFO 44811 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-15T23:04:53.176+01:00  INFO 44811 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
-2026-01-15T23:04:53.177+01:00  INFO 44811 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-15T23:04:53.185+01:00  WARN 44811 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-15T23:04:53.193+01:00  INFO 44811 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:test]
-	Database driver: H2 JDBC Driver
-	Database dialect: H2Dialect
-	Database version: 2.4.240
-	Default catalog/schema: TEST/PUBLIC
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: 100
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-15T23:04:53.471+01:00  INFO 44811 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-15T23:04:53.499+01:00  INFO 44811 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T23:04:53.527+01:00  INFO 44811 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-15T23:04:53.595+01:00  WARN 44811 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-15T23:04:53.690+01:00  INFO 44811 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
-2026-01-15T23:04:53.709+01:00  INFO 44811 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
-2026-01-15T23:04:53.711+01:00  INFO 44811 --- [restartedMain] c.p.s.p.ProtectoracaninaApplication      : Started ProtectoracaninaApplication in 1.313 seconds (process running for 1.626)
-2026-01-15T23:05:20.140+01:00  INFO 44811 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-15T23:05:20.141+01:00  INFO 44811 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-15T23:05:20.143+01:00  INFO 44811 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-01-15T23:05:20.162+01:00  INFO 44811 --- [http-nio-8082-exec-1] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:06:19.269+01:00  INFO 44811 --- [http-nio-8082-exec-2] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:06:31.563+01:00  INFO 44811 --- [http-nio-8082-exec-4] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T23:06:31.563+01:00  INFO 44811 --- [http-nio-8082-exec-4] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T23:06:31.564+01:00  INFO 44811 --- [http-nio-8082-exec-4] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T23:06:33.859+01:00  INFO 44811 --- [http-nio-8082-exec-5] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:06:34.939+01:00  INFO 44811 --- [http-nio-8082-exec-6] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T23:06:34.940+01:00  INFO 44811 --- [http-nio-8082-exec-6] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T23:06:34.940+01:00  INFO 44811 --- [http-nio-8082-exec-6] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T23:06:41.396+01:00  INFO 44811 --- [http-nio-8082-exec-7] c.p.s.p.controller.FichaPerroController  : Inicio: fichaPerro
-2026-01-15T23:06:41.397+01:00  INFO 44811 --- [http-nio-8082-exec-7] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorId]
-2026-01-15T23:06:43.483+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T23:06:43.484+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T23:06:43.484+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T23:06:44.881+01:00  INFO 44811 --- [http-nio-8082-exec-9] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:07:48.467+01:00  INFO 44811 --- [http-nio-8082-exec-2] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:07:49.851+01:00  INFO 44811 --- [http-nio-8082-exec-3] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:08:23.017+01:00  INFO 44811 --- [http-nio-8082-exec-4] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:08:23.915+01:00  INFO 44811 --- [http-nio-8082-exec-5] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:08:56.919+01:00  INFO 44811 --- [http-nio-8082-exec-7] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:08:57.630+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:09:45.464+01:00  INFO 44811 --- [http-nio-8082-exec-9] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:09:46.143+01:00  INFO 44811 --- [http-nio-8082-exec-10] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:09:46.650+01:00  INFO 44811 --- [http-nio-8082-exec-1] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:09:49.954+01:00  INFO 44811 --- [http-nio-8082-exec-2] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T23:09:49.954+01:00  INFO 44811 --- [http-nio-8082-exec-2] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T23:09:49.954+01:00  INFO 44811 --- [http-nio-8082-exec-2] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T23:09:51.648+01:00  INFO 44811 --- [http-nio-8082-exec-3] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:19.242+01:00  INFO 44811 --- [http-nio-8082-exec-5] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:19.891+01:00  INFO 44811 --- [http-nio-8082-exec-6] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:20.407+01:00  INFO 44811 --- [http-nio-8082-exec-7] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:34.026+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:34.508+01:00  INFO 44811 --- [http-nio-8082-exec-9] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:48.048+01:00  INFO 44811 --- [http-nio-8082-exec-10] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:10:48.588+01:00  INFO 44811 --- [http-nio-8082-exec-1] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:12:52.303+01:00  INFO 44811 --- [http-nio-8082-exec-4] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:14:33.751+01:00  INFO 44811 --- [http-nio-8082-exec-7] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:14:34.711+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:14:44.968+01:00  INFO 44811 --- [http-nio-8082-exec-9] c.p.s.p.controller.PerrosController      : [listadoPerros]
-2026-01-15T23:14:44.968+01:00  INFO 44811 --- [http-nio-8082-exec-9] c.p.s.p.service.impl.PerroDAO            : [obtenerPerroPorNombre]
-2026-01-15T23:14:44.968+01:00  INFO 44811 --- [http-nio-8082-exec-9] c.p.s.p.service.impl.PerroDAO            : [nombre]: null
-2026-01-15T23:14:46.775+01:00  INFO 44811 --- [http-nio-8082-exec-10] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:15:19.309+01:00  INFO 44811 --- [http-nio-8082-exec-1] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:15:40.246+01:00  INFO 44811 --- [http-nio-8082-exec-3] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:16:03.962+01:00  INFO 44811 --- [http-nio-8082-exec-4] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:16:16.696+01:00  INFO 44811 --- [http-nio-8082-exec-5] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:16:50.065+01:00  INFO 44811 --- [http-nio-8082-exec-7] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:17:24.822+01:00  INFO 44811 --- [http-nio-8082-exec-8] c.p.s.p.controller.FormPerroController   : [formularioPerro]
-2026-01-15T23:18:01.386+01:00  WARN 44811 --- [http-nio-8082-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2026-01-15T23:18:30.691+01:00  INFO 44811 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-01-15T23:18:30.694+01:00  INFO 44811 --- [RMI TCP Connection(17)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-15T23:18:30.697+01:00  INFO 44811 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-15T23:18:30.699+01:00  INFO 44811 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-15T23:18:30.703+01:00  WARN 44811 --- [RMI TCP Connection(17)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
-Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
-2026-01-15T23:18:30.703+01:00  INFO 44811 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-15T23:18:30.704+01:00  INFO 44811 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-17T20:10:44.536+01:00  INFO 47914 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-17T20:10:44.537+01:00  INFO 47914 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
