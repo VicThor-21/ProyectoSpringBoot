@@ -2,8 +2,12 @@ package com.proyecto.spring.protectoracanina.entity;
 
 import java.util.Date;
 
+import com.proyecto.spring.protectoracanina.EstadoAdopcion;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -33,8 +37,9 @@ public class Perro {
 	private boolean sexo;
 	@Column(name="peso")
 	private float peso;
+	@Enumerated(EnumType.STRING)
 	@Column(name="estado")
-	private int estado;
+	private EstadoAdopcion estado;
 	@Column(name="fecha_ingreso")
 	private Date fechaIngreso;
 

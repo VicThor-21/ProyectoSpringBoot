@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.proyecto.spring.protectoracanina.EstadoAdopcion;
 import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
@@ -22,7 +23,7 @@ public class PerrosController {
 	@Autowired
 	private PerroService perroService;
 	
-	@GetMapping 
+/*	@GetMapping 
 	public String listadoPerros(@RequestParam(required=false) String nombre, Model model){
 		
 		log.info("[listadoPerros]");
@@ -30,6 +31,19 @@ public class PerrosController {
 		List<Perro> perros=perroService.obtenerPerro(nombre);
 		
 		model.addAttribute("Perros", perros);
+		
+		return "/perros";
+	} */
+	
+	@GetMapping 
+	public String listadoPerros(@RequestParam(required=false) EstadoAdopcion estado, Model model){
+		
+		log.info("[listadoPerros]");
+		
+		List<Perro> perros=perroService.filtroPorEstado(estado);
+		
+		model.addAttribute("Perros", perros);
+		model.addAttribute("estados", EstadoAdopcion.values());
 		
 		return "/perros";
 	}

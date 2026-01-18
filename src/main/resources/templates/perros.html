@@ -14,7 +14,14 @@
 	    	<h3><a href="/formperro">➕ Añadir Perro</a></h3>
 	    	<label for="nombre">Nombre: </label>
 	    	<input type="text" id="nombre" name="nombre">
-	    	<button>🔎 Buscar</button><br><br>
+	    	<button>🔎 Buscar</button><br>
+	    	<label for="estado" th:text="#{estado}"></label>
+            <select id="estado" name="estado">
+                <option value=""></option>
+                <option th:each="est:${estados}" th:value="${est}" th:text="${est}"></option>
+            </select>
+            <input type="submit" value="Buscar">
+	    	<br>
     	</form>
     </div>
     <table border="1">

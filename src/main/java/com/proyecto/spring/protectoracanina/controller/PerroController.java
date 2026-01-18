@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.proyecto.spring.protectoracanina.EstadoAdopcion;
 import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
@@ -15,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @Slf4j
-@RequestMapping("/perro")
+@RequestMapping("/api/perro")
 public class PerroController {
 	@Autowired
 	private PerroService perroService;
@@ -24,7 +25,7 @@ public class PerroController {
 	public Perro insertarPerro(@PathVariable String nombre) {
 		log.info("Inicio: insertarPerros");
 		
-		Perro perro=perroService.insertarPerro(nombre, 0, nombre, false, 0, 0, null);
+		Perro perro=perroService.insertarPerro(nombre, 0, nombre, false, 0, EstadoAdopcion.DISPONIBLE, null);
 		return perro;
 	}
 	
