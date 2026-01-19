@@ -1,14 +1,15 @@
-package com.proyecto.spring.protectoracanina.controller;
+package com.proyecto.spring.protectoracanina.controller.api;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.proyecto.spring.protectoracanina.EstadoAdopcion;
+import com.proyecto.spring.protectoracanina.EstadoPerro;
 import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
@@ -17,16 +18,16 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @Slf4j
 @RequestMapping("/api/perro")
-public class PerroController {
+public class PerroRestController {
 	@Autowired
 	private PerroService perroService;
 	
-	@GetMapping(value="/add/{nombre}") // ruta en el navegador para insertar un nuevo perro
-	public Perro insertarPerro(@PathVariable String nombre) {
+	@PostMapping(value="/add/{perro}") // ruta en el navegador para insertar un nuevo perro
+	public void insertarPerro(@PathVariable Perro perro) {
 		log.info("Inicio: insertarPerros");
 		
-		Perro perro=perroService.insertarPerro(nombre, 0, nombre, false, 0, EstadoAdopcion.DISPONIBLE, null);
-		return perro;
+		perroService.crearPerro(perro);
+		
 	}
 	
 	@GetMapping(value= {"","/"})  // ruta en el navegador para volver a ver el listado de perros
@@ -45,11 +46,11 @@ public class PerroController {
 		return perro;
 	}
 	
-	@GetMapping(value="/nombre/{nombre}") // busqueda en el navegador por id de perro
-	public List<Perro> obtenerPerro(@PathVariable String nombre) {
-		log.info("Inicio: obtenerPerro");
+	@GetMapping(value="/estado/{estado}") // busqueda en el navegador por id de perro
+	public List<Perro> obtenerPerro(@PathVariable EstadoPerro estado) {
+		log.info("[Inicio: obtenerPerro]");
 		
-		List<Perro> perro=perroService.obtenerPerro(nombre);
+		List<Perro> perro=perroService.filtroPorEstado(estado);
 		
 		return perro;
 	}

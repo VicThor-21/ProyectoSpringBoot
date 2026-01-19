@@ -1,12 +1,11 @@
 package com.proyecto.spring.protectoracanina.service.impl;
 
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.proyecto.spring.protectoracanina.EstadoAdopcion;
+import com.proyecto.spring.protectoracanina.EstadoPerro;
 import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.repository.PerroRepository;
 import com.proyecto.spring.protectoracanina.service.PerroService;
@@ -15,26 +14,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class PerroDAO implements PerroService {
+public class PerroServiceImpl implements PerroService {
 	
 	@Autowired
 	private PerroRepository perroRepository;
-
-	//Metodo hecho pra el RestController
-	@Override
-	public Perro insertarPerro(String nombre, int edad, String raza, boolean sexo, float peso, EstadoAdopcion estado,
-			Date fechaIngreso) {
-		Perro p=new Perro();
-		p.setNombre(nombre);
-		p.setEdad(edad);
-		p.setRaza(raza);
-		p.setSexo(sexo);
-		p.setPeso(peso);
-		p.setEstado(estado);
-		p.setFechaIngreso(fechaIngreso);
-		
-		return perroRepository.save(p);
-	}
 
 	@Override
 	public List<Perro> listadoPerros() {
@@ -49,13 +32,19 @@ public class PerroDAO implements PerroService {
 	}
 
 	@Override
-	public List<Perro>  obtenerPerro(String nombre) {
+	public List<Perro>  obtenerPerro(String nombre, EstadoPerro estado) {
 		log.info("[obtenerPerroPorNombre]");
-		log.info("[nombre]: {}",nombre);
+		log.debug("[nombre]: {}",nombre);
+		log.debug("[Estado:{}]", estado);
 		
-		if (nombre == null || nombre.trim().isEmpty())
+		if ((nombre == null || nombre.trim().isEmpty()) && 
+				(estado == null || estado.toString().isEmpty()))
 			return perroRepository.findAll();
-		return perroRepository.findByNombre(nombre);
+		if ((nombre == null || nombre.trim().isEmpty()))
+			return perroRepository.findByEstado(estado);
+		if ((estado == null || estado.toString().isEmpty()))
+			return perroRepository.findByNombre(nombre);
+		return perroRepository.findByNombreYEstado(nombre, estado);
 	}
 
 	//Metodo Hecho para el Controller formperro
@@ -69,13 +58,22 @@ public class PerroDAO implements PerroService {
 	}
 
 	@Override
-	public List<Perro> filtroPorEstado(EstadoAdopcion estado) {
+	public List<Perro> filtroPorEstado(EstadoPerro estado) {
 		log.info("[filtroPorEstado]");
 		log.debug("[Estado:{}]", estado);
 		if(estado == null || estado.toString().isEmpty()) {
 			return perroRepository.findAll();
 		}
 		return perroRepository.findByEstado(estado);
+	}
+
+	@Override
+	public void eliminarPerro(int id) {
+		log.info("[eliminarPerro]");
+		log.debug("[id:{}]", id);
+		
+		perroRepository.deleteById(id);
+		
 	}
 
 }

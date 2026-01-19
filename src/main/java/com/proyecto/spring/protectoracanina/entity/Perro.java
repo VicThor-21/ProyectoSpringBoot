@@ -2,7 +2,7 @@ package com.proyecto.spring.protectoracanina.entity;
 
 import java.util.Date;
 
-import com.proyecto.spring.protectoracanina.EstadoAdopcion;
+import com.proyecto.spring.protectoracanina.EstadoPerro;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -39,7 +39,7 @@ public class Perro {
 	private float peso;
 	@Enumerated(EnumType.STRING)
 	@Column(name="estado")
-	private EstadoAdopcion estado;
+	private EstadoPerro estado;
 	@Column(name="fecha_ingreso")
 	private Date fechaIngreso;
 

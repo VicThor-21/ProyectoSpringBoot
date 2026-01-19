@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.proyecto.spring.protectoracanina.EstadoAdopcion;
+import com.proyecto.spring.protectoracanina.EstadoPerro;
 import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
@@ -25,7 +25,7 @@ public class FormPerroController {
 	public String formularioPerro(Model model) {
 		log.info("[formularioPerro]");
 				
-		model.addAttribute("estados", EstadoAdopcion.values());
+		model.addAttribute("estados", EstadoPerro.values());
 		
 		return "/formperro";
 	}

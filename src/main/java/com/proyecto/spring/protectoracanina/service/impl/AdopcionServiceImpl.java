@@ -13,7 +13,7 @@ import com.proyecto.spring.protectoracanina.repository.AdopcionRepository;
 import com.proyecto.spring.protectoracanina.service.AdopcionService;
 
 @Service
-public class AdopcionDAO implements AdopcionService {
+public class AdopcionServiceImpl implements AdopcionService {
 	
 	@Autowired
 	private AdopcionRepository adopcionRepository;

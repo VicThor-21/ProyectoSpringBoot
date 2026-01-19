@@ -10,7 +10,7 @@ import com.proyecto.spring.protectoracanina.repository.AdoptanteRepository;
 import com.proyecto.spring.protectoracanina.service.AdoptanteService;
 
 @Service
-public class AdoptanteDAO implements AdoptanteService {
+public class AdoptanteServiceImpl implements AdoptanteService {
 	
 	@Autowired
 	private AdoptanteRepository adoptanteRepository;

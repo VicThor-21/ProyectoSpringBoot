@@ -1,9 +1,15 @@
 package com.proyecto.spring.protectoracanina.entity;
 
-import java.util.Date;
+import java.time.LocalDateTime;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.proyecto.spring.protectoracanina.CausaHC;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -26,11 +32,14 @@ public class HistorialClinico {
 	@Column(name="hc_id")
 	private int id;
 	@Column(name="causa")
-	private int causa;
+	@Enumerated(EnumType.STRING)
+	private CausaHC causa;
 	@Column(name="descripcion")
 	private String descripcion;
-	@Column(name="fecha")
-	private Date fecha;
+	
+	@Column(name="fecha", nullable=false)
+	@DateTimeFormat(pattern = "yyyy-MM-dd' 'HH:mm")
+	private LocalDateTime fecha;
 	@Column(name="veterinario")
 	private String veterinario;
 	

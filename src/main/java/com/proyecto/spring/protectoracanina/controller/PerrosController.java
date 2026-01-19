@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.proyecto.spring.protectoracanina.EstadoAdopcion;
+import com.proyecto.spring.protectoracanina.EstadoPerro;
 import com.proyecto.spring.protectoracanina.entity.Perro;
 import com.proyecto.spring.protectoracanina.service.PerroService;
 
@@ -17,36 +17,24 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @Slf4j
-@RequestMapping("/perros") // ruta en el navegador para volver a ver el listado de perros
+@RequestMapping("/perros") 
 public class PerrosController {
 	
 	@Autowired
 	private PerroService perroService;
 	
-/*	@GetMapping 
-	public String listadoPerros(@RequestParam(required=false) String nombre, Model model){
-		
-		log.info("[listadoPerros]");
-		
-		List<Perro> perros=perroService.obtenerPerro(nombre);
-		
-		model.addAttribute("Perros", perros);
-		
-		return "/perros";
-	} */
-	
 	@GetMapping 
-	public String listadoPerros(@RequestParam(required=false) EstadoAdopcion estado, Model model){
+	public String listadoPerros(@RequestParam(required=false) String nombre, 
+								@RequestParam(required=false) EstadoPerro estado, Model model){
 		
 		log.info("[listadoPerros]");
 		
-		List<Perro> perros=perroService.filtroPorEstado(estado);
+		List<Perro> perros=perroService.obtenerPerro(nombre, estado);
 		
 		model.addAttribute("Perros", perros);
-		model.addAttribute("estados", EstadoAdopcion.values());
+		model.addAttribute("estados", EstadoPerro.values());
 		
 		return "/perros";
-	}
-	
+	} 
 
 }

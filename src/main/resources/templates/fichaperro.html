@@ -48,23 +48,22 @@
             </table><br><br><br>
             
             <h2>Consulta Clínica</h2>
-            <form action="">
-            	<label>Veterinario: </label><input type="text"><br><br>
+            <form name="formhc" th:action="@{|/fichaperro/${FichaPerro.id}|}" method="post">
+            	<label for="veterinario">Veterinario: </label>
+            	<input type="text" id="veterinario" name="veterinario"><br><br>
             	<label for="causa">Causa/Motivo: </label>
-				<select name="causa" id="causa">
-				    <option value="">-- Selecciona una opción --</option>
-				    <option value="revision">Revisión</option>
-				    <option value="vacuna">Vacuna</option>
-				    <option value="desparasitar">Desparasitar</option>
-				    <option value="operacion">Operación</option>
-				    <option value="enfermedad">Enfermedad</option>
-				</select><br><br>
-            	<label>Descripción: </label><br>
-            	<textarea rows="4" cols="60"></textarea><br><br>
-            	<label for="fecha">Fecha Consulta: </label><input type="datetime-local" id="fecha"><br><br>
-	            <button>➕ Añadir Consulta</button>
-	            <button>🔄 Actualizar Consulta</button>
-	            <button>❌ Eliminar Consulta</button>
+	            <select id="causa" name="causa">
+	                <option value=""></option>
+	                <option th:each="ca:${causa}" th:value="${ca}" th:text="${ca}"></option>
+	            </select>
+            	<br><br>
+            	<label for="descripcion">Descripción: </label><br>
+            	<textarea rows="4" cols="60" id="descripcion" name="descripcion"></textarea><br><br>
+            	<label for="fecha">Fecha Consulta: </label>
+            	<input type="datetime-local" id="fecha" name="fecha"><br><br>
+	            <button>💾 Guardar</button>
+	            
+	            <button type="button">❌ Eliminar Consulta</button>
 	            <input type="reset" value="⚪️ Limpiar Formulario">
             </form><br><br>
             
